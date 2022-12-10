@@ -6,20 +6,15 @@
     <meta charset="UTF-8">
     <title>Simple Calculator</title> 
     <script src="../JS/index.js"></script>
-    <style>
-        #Center {
-
-            text-align: center;
-        }
-
-    </style>
-
+    <link rel="stylesheet" href="../CSS/index.css">
 
 </head>
 
 <body>
 <h1 id="Center">Simple Calculator</h1>
-    <div id="Center">
+
+<div id="bordered">
+    <div id="center">
         <form>
             <input type="number" value="0" id="A" style="text-align:center;">
             <p id="this" style="text-align:center">+</p>
@@ -28,11 +23,11 @@
         <br>
         <form>
             <input type="button" value="=" onclick="test()">
-            <p id="C"></p>
+            <p id="C">0</p>
         </form>
     </div>
 
-    <div style="text-align:center;">
+    <div id="bordered" style="text-align:center;">
         <form>
             <input type="button" value="+" onclick="plus()"> 
             <input type="button" value="-" onclick="minus()"> 
@@ -40,14 +35,15 @@
             <input type="button" value="*" onclick="product()"> 
         </form>
     </div>
+</div>
 
-    <a href="../../3 - Calculator - CSS/HTML/index.html">
-        <img src="../../../Main/IMG/NEXT.png" style="margin-left:90%; margin-right:5%; float: right;">
-    </a>
+<a href="../../../Main/HTML/index.html">
+    <img src="../../../Main/IMG/NEXT.png" style="margin-left:90%; margin-right:5%; float: right;">
+</a>
 
-    <a href="../../1 - Simple Addition Calculator/HTML/index.html">
-        <img src="../../../Main/IMG/BACK.png" style="margin-left:90%; margin-right:5% ;margin-top:10px; float: right;">
-    </a>
+<a href="../../2 - Calculator/HTML/calc2.html">
+    <img src="../../../Main/IMG/BACK.png" style="margin-left:90%; margin-right:5% ;margin-top:10px; float: right;">
+</a>
 
 </body>
 
