@@ -1,0 +1,13 @@
+html {
+
+background-color: antiquewhite;
+
+}
+
+table {
+
+    border-style: groove;
+    border-color: burlywood;
+    border-width: 5px;
+    border-radius: 10px;
+}
