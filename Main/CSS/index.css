@@ -1,67 +1,74 @@
 html {
 
-    font-family: comic sans ms;
-background-color: darksalmon;
+  font-family: comic sans ms;
+  background-color: darksalmon;
 
 }
 
 #textbox {
-    
-    font-size: 20px;
-    text-align: center;
-    width:33%;
-    border-width: 2px;
-    padding: 30px;
-    border-color: aquamarine;
-    border-radius: 50px;
-    background-color: azure;
-    border-style: solid;
-    margin-top: 10px;
-    width: fit-content;
+  
+  margin:auto;
+  font-size: 20px;
+  text-align: center;
+  width:33%;
+  border-width: 2px;
+  padding: 30px;
+  border-color: aquamarine;
+  border-radius: 50px;
+  background-color: azure;
+  border-style: solid;
+  margin-top: 10px;
+  width: fit-content;
 }
 
 #imagebox {
 
-    border-style: dotted;
-    border-width: 2px;
-    padding:30px;
-    border-color: aquamarine;
-    border-radius: 50px;
-    background-color: rgb(255, 236, 250);
+  border-style: dotted;
+  border-width: 2px;
+  padding:30px;
+  border-color: aquamarine;
+  border-radius: 50px;
+  background-color: rgb(255, 236, 250);
 
 }
 
 #welcome {
 
-    margin-top:0px;
-    border-style:none;
-    background-color:bisque;
-    padding: 30px;
-    border-radius: 50px;
-    overflow:hidden;
+  margin-top:0px;
+  border-style:none;
+  background-color:bisque;
+  padding: 30px;
+  border-radius: 50px;
+  overflow:hidden;
 
 }
 
 #bordered {
 
-    border-style:none;
-    background-color:bisque;
-    padding: 30px;
-    border-radius: 50px;
-    overflow:hidden;
+  border-style:none;
+  background-color:bisque;
+  padding: 30px;
+  border-radius: 50px;
+  overflow:hidden;
 
 }
 
 .left {
 
-    margin-left:5% ;margin-right: 55%;
+  float:left;
+  margin-left:5% ;
+  margin-top: 50px;
+  max-width: 690px;
 
 }
 
 .right {
 
-    margin-left:55% ;margin-right: 5%;
-    
+  float:right;
+  margin-right: 5%;
+  margin-top: 50px;
+  max-width: 690px;
+
 }
 
 @keyframes rainbow-text {
@@ -220,21 +227,21 @@ background-color: darksalmon;
     }
   }
 
-  .rainbow-text {
-    animation: rainbow-text 1s infinite;
-  }
+.rainbow {
+  animation: rainbow-text 1s infinite;
+}
 
 img {
 
-    width:600px;
-    height: auto;
-    border-radius: 50px;
-    margin: 10px;
-    
+  width:600px;
+  height: auto;
+  border-radius: 50px;
+  margin: 10px;
+  
 }
 
 mark {
 
-    background-color: rgb(233, 122, 231);
+  background-color: rgb(233, 122, 231);
 
 }
