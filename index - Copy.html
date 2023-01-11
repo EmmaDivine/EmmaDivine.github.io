@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+
+<!-- This is unnecessarily complex, because I have no idea how to stack two divs side by side-->
+
+<html>
+
+<head>
+    <meta charset="UTF-8"></meta>
+    <title> My Project </title>
+    <script src="Main/JS/index.js"></script>
+    <link rel="stylesheet" href="Main/CSS/index.css">
+</head>
+
+<body>
+    <div id="welcome" style="z-index: 2;position:fixed;width:96%; height:87%;">
+        <div id="textbox" style="margin:auto;margin-bottom: 50px;">
+            <p style="font-size: 100px;">Welcome to my site!</p>
+        </div>
+
+        <div id="imagebox" style="text-align:center;margin-right: 40%;margin-left: 40%;">
+            <form>
+                <input type="button" onclick="agree()" value="Click me to enter!">
+            </form>
+        </div>
+    </div>
+
+    <div>
+        <div id="bordered" style="align-items:center;margin-left: 30%; margin-right: 30%;">
+            <div id="textbox" style="margin:auto;">
+                <a href="https://stackoverflow.com/questions/36793529/how-to-generate-rainbow-colored-text-in-javascript" style="text-decoration: none;">
+                    <p class="rainbow" style="font-size:50px;"> Only me, myself and I</p>
+                    <!-- I skimmed this rainbow text from here: https://stackoverflow.com/questions/36793529/how-to-generate-rainbow-colored-text-in-javascript :) -->
+                </a>
+            </div>
+        </div>
+
+        <div id="bordered" class="left">
+            <div id="textbox">
+                <p>This is a site made by me, Emma. I am 16 years old, and I study at GBAS, Sučany. I love art, cooking, hyperfixating on random things, such as programming, and way more.</p>
+            </div>
+        </div>
+
+        <div id="bordered" class="right">
+            <div id="imagebox">
+                <a href="Calculator/1 - Simple Addition Calculator/HTML/calc1.html" > 
+                    <img src="Main/IMG/Calculator 1.png"> 
+                </a>
+            </div>
+
+            <div id="textbox">
+                <p>This was the first prototype of my simple calculator I made a week ago. It was quite useless, as it could only do addition, and very badly at that. </p>
+                <p>You can go to the site and follow my process if you click the image!</p>
+            </div>
+        </div>
+
+        <div id="bordered" class="left">
+            <div id="imagebox">
+                <a href="https://www.instagram.com/stories/highlights/18008206051421145/" > 
+                    <img src="Main/IMG/Slay.jfif"> 
+                </a>
+            </div>
+
+            <div id="textbox">
+                <p>I also love shopping for clothes, even though it drains the money out of my poor little bank account. I would try to save some, or invest more, but <mark> F A S H I O N</mark>.</p>
+                <p>You can check out my outfits by clicking this picture!</p>
+            </div>
+        </div>
+
+        <div id="bordered" class="right">
+            <div id="imagebox">
+                <a href="https://www.instagram.com/divineisalive/"> 
+                    <img src="Main/IMG/Drawing.jfif"> 
+                </a>
+            </div>
+
+            <div id="textbox">
+                <p>As I said, I also LOVE drawing and art overall! I've only started drawing actively about a year ago (December 2021), and I think that I really improved over the year.</p>
+                <p>What do you think? Click the image to go to my Instagram, where I post all of my art!</p>
+            </div>
+        </div>
+    </div>
+    
+    <div id="bordered" class="left">
+        <div id="imagebox">
+            <a href="Table/HTML/table.html" > 
+                <img src="Main/IMG/trans.png"> 
+            </a>
+        </div>
+
+        <div id="textbox">
+            <p>If you weren't aware of this, I am also trans. That means that in a little while (2023-2024), I'm going to be going on HRT (hormone replacement therapy). But until then, there are supplements that I could take that could act as hormones. I compiled them into a table for convenience.</p>
+            <p>You can find the table when you click on the trans flag!</p>
+        </div>
+    </div>
+
+    <div id="bordered" class="right" style="margin-top:0px;">
+        <div id="imagebox">
+            <a href="https://soundcloud.com/zlatica-uhornikova">
+                <img src="Main/IMG/gecs.webp">
+            </a>
+        </div>
+
+        <div id="textbox">
+            <p>One thing I haven't mentioned about myself is that I love listening to music. My favourite genre has to be Hyperpop, since I listen to it pretty much every day. My favourite band is 100 Gecs, and my favourite interpret is Laura Les.</p>
+            <p>Click the image of 100 Gecs to look at my SoundCloud!</p>
+        </div>
+    </div>
+
+    <div id="bordered" class="left">
+        <div id="imagebox">
+            <video controls style="width:600px;height:auto;margin:auto" onplay="aud1()" onpause="aud2()">
+                <source src="Main/VID/Birb.mp4" type="video/MP4">
+                <source src="Main/VID/Birb.mp4" type="video/OGG">
+            </video>
+        </div>
+
+        <div id="textbox">
+            <p>Behold, the majestic Mr. Birb!</p>
+        </div>
+    </div> 
+</body>
+
+</html>
+
+<!--Emma, GBAS, 2022-->
